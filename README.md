@@ -25,20 +25,20 @@ Les fichiers sont trop volumineux pour GitHub, ils doivent être **ajoutés manu
 ---
 
 ## Installation et Prérequis
-
-### 1️ Cloner le dépôt
+ 
+ -1️ Cloner le dépôt
 ```sh
 git clone https://github.com/KADA-SEDODE/Pr-vision-des-ventes.git
 cd Pr-vision-des-ventes
 
-### 2️ Créer un environnement virtuel et installer les dépendances
+- 2️ Créer un environnement virtuel et installer les dépendances
 python -m venv .venv
 source .venv/bin/activate  # Sur Mac/Linux
 .\.venv\Scripts\activate   # Sur Windows
 
 pip install -r requirements.txt
 
-### 3️ Lancer le notebook
+- 3️ Lancer le notebook
 jupyter notebook
 
  Modèles Utilisés
