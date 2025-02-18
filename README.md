@@ -12,6 +12,16 @@ L'objectif est d'optimiser la gestion des stocks et d'améliorer la prise de dé
 - `requirements.txt` : Liste des bibliothèques nécessaires pour exécuter le projet.
 - `README.md` : Ce fichier expliquant le projet.
 
+## 📂 Gestion des données
+
+Le dossier `data/` contient les fichiers CSV nécessaires au projet.  
+Les fichiers sont trop volumineux pour GitHub, ils doivent être **ajoutés manuellement**.
+
+ **Instructions :**
+1. Télécharger l'archive `data.zip` envoyée par mail.
+2. Extraire son contenu et **placer les fichiers dans `data/`**.
+
+
 ---
 
 ## Installation et Prérequis
@@ -21,14 +31,14 @@ L'objectif est d'optimiser la gestion des stocks et d'améliorer la prise de dé
 git clone https://github.com/KADA-SEDODE/Pr-vision-des-ventes.git
 cd Pr-vision-des-ventes
 
-2️ Créer un environnement virtuel et installer les dépendances
+### 2️ Créer un environnement virtuel et installer les dépendances
 python -m venv .venv
 source .venv/bin/activate  # Sur Mac/Linux
 .\.venv\Scripts\activate   # Sur Windows
 
 pip install -r requirements.txt
 
-3️ Lancer le notebook
+### 3️ Lancer le notebook
 jupyter notebook
 
  Modèles Utilisés
